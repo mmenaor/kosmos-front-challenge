@@ -1,0 +1,44 @@
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+}
+
+.obj-fit-1 {
+  object-fit: fill;
+}
+
+.obj-fit-2 {
+  object-fit: contain;
+}
+
+.obj-fit-3 {
+  object-fit: cover;
+}
+
+.obj-fit-4 {
+  object-fit: none;
+}
+
+.obj-fit-5 {
+  object-fit: scale-down;
+}
