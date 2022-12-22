@@ -118,7 +118,6 @@ const Component = ({
 
   let parent = document.getElementById("parent");
   let parentBounds = parent?.getBoundingClientRect();
-  console.log(parentBounds);
 
   // Update window size
   useEffect(() => {
@@ -155,6 +154,7 @@ const Component = ({
       <img
         ref={ref}
         src={image}
+        alt={"component"+id}
         className={`draggable obj-fit-${fit}`}
         id={"component-" + id}
         style={{
